@@ -12,6 +12,7 @@
 		746C34CE2A28D7EA0077E569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746C34CD2A28D7EA0077E569 /* Assets.xcassets */; };
 		746C34D12A28D7EA0077E569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746C34D02A28D7EA0077E569 /* Preview Assets.xcassets */; };
 		746C34D92A28D85F0077E569 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C34D82A28D85F0077E569 /* Hike.swift */; };
+		746C34DB2A290F690077E569 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C34DA2A290F690077E569 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		746C34CD2A28D7EA0077E569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		746C34D02A28D7EA0077E569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		746C34D82A28D85F0077E569 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		746C34DA2A290F690077E569 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				746C34D72A28D83F0077E569 /* Models */,
 				746C34C92A28D7E80077E569 /* HikingApp.swift */,
 				746C34CB2A28D7E80077E569 /* ContentView.swift */,
+				746C34DA2A290F690077E569 /* HikeDetail.swift */,
 				746C34CD2A28D7EA0077E569 /* Assets.xcassets */,
 				746C34CF2A28D7EA0077E569 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				746C34D92A28D85F0077E569 /* Hike.swift in Sources */,
 				746C34CC2A28D7E80077E569 /* ContentView.swift in Sources */,
 				746C34CA2A28D7E80077E569 /* HikingApp.swift in Sources */,
+				746C34DB2A290F690077E569 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
