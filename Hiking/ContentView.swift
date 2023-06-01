@@ -17,7 +17,6 @@ struct ContentView: View {
 				NavigationLink(destination: Text(hike.name)) {
 					HikeCell(hike: hike)
 				}
-				HikeCell(hike: hike)
 			}
 			.navigationBarTitle("Hiking")
 		}
