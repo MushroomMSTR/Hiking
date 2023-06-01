@@ -11,6 +11,7 @@
 		746C34CC2A28D7E80077E569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C34CB2A28D7E80077E569 /* ContentView.swift */; };
 		746C34CE2A28D7EA0077E569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746C34CD2A28D7EA0077E569 /* Assets.xcassets */; };
 		746C34D12A28D7EA0077E569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746C34D02A28D7EA0077E569 /* Preview Assets.xcassets */; };
+		746C34D92A28D85F0077E569 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C34D82A28D85F0077E569 /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		746C34CB2A28D7E80077E569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		746C34CD2A28D7EA0077E569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		746C34D02A28D7EA0077E569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		746C34D82A28D85F0077E569 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		746C34C82A28D7E80077E569 /* Hiking */ = {
 			isa = PBXGroup;
 			children = (
+				746C34D72A28D83F0077E569 /* Models */,
 				746C34C92A28D7E80077E569 /* HikingApp.swift */,
 				746C34CB2A28D7E80077E569 /* ContentView.swift */,
 				746C34CD2A28D7EA0077E569 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				746C34D02A28D7EA0077E569 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		746C34D72A28D83F0077E569 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				746C34D82A28D85F0077E569 /* Hike.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746C34D92A28D85F0077E569 /* Hike.swift in Sources */,
 				746C34CC2A28D7E80077E569 /* ContentView.swift in Sources */,
 				746C34CA2A28D7E80077E569 /* HikingApp.swift in Sources */,
 			);
